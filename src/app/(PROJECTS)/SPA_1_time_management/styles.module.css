@@ -1,0 +1,7 @@
+.body {
+  width: 100%;
+  display: flex;
+  color: black;
+  min-height: 100vh;
+  background-color: #ddd;
+}

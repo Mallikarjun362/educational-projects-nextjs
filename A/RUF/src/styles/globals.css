@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+main {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.desc::selection {
+  color: black;
+  background-color: #0002;
+  font-weight: bold;
+}
+.rel-chip {
+  background-color: #00000017;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #0009;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.link {
+  background-color: #ddd;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  user-select: none;
+}
